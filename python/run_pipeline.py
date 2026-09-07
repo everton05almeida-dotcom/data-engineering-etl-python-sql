@@ -5,6 +5,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 
 steps = [
+    "extract.py",
     "transform.py",
     "data_quality.py",
     "load_sqlite.py",
